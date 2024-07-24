@@ -1,0 +1,10 @@
+App(
+    appid="fzshock",
+    name="FzShock",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="fzshock",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_icon="fzshock.png",
+    fap_category="Sub-GHz",
+)
